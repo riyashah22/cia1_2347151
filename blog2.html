@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./details.css">
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://th.bing.com/th/id/OIP.qTZy3GY7CH0AlxsviHRmXQHaE2?w=278&h=182&c=7&r=0&o=5&pid=1.7" width="30" height="24">
+              </a>
+          <a class="navbar-brand" href="./index.html">LearnWell</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">HTML features</a></li>
+                  <li><a class="dropdown-item" href="#">CSS Components</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Bootstrap Components</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <div style="padding-left: 80px;"></div>
+              <button type="button" class="btn btn-dark"><a href="./user_profile.html" style="text-decoration: none;">Login</a></button>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+    <div class="blog1-image">
+        <table>
+            <tr>
+               
+                <td><img src="https://th.bing.com/th/id/R.78aed04636c14e43c90c21400c3b4b47?rik=ptjeLeJW1haicg&riu=http%3a%2f%2fwww.pearltrees.com%2fs%2fbackground%2fimage%2f17%2ff2%2f17f29655c61755cc625b3059069055f8.jpg&ehk=iG%2bJcsJx%2fTYpMYTHBk7paoYHozXOwI6rtYY6LtdPQr0%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="..."></td>
+                <td class="t1"><div class="card" style="width: 25rem; margin-left: 250%;">
+                    <table>
+                        <tr>
+                            <td colspan="2"><h3 style="padding: 20px; ">Popular Articles</h1><hr></td>
+                                
+                        </tr>
+                        
+                        <tr>
+                           
+                            <td style="width: 50%;"><img src="https://th.bing.com/th/id/OIP.fq9Rse-6wiSoJiVfYbHoJwHaEo?w=290&h=180&c=7&r=0&o=5&pid=1.7" style="height: 50%; width:50%; padding-left: 20px;" alt="">
+                               </td>
+                            <td> <a href="./index.html" style="padding: 20%;">Html</a><br>Go through this article it will be helpful to you<hr style="margin-right: 20px;"></td></tr>
+                       
+                            <tr>
+                                
+                                <td style="width: 50%;"><img src="https://th.bing.com/th/id/OIP.luIgMTmW07XmvD-swQZ_JwHaHa?w=159&h=180&c=7&r=0&o=5&pid=1.7" style="height: 50%; width:50%; padding-left: 20px;" alt="">
+                                </td>
+                                <td> <a href="./index.html" style="padding: 20%;">CSS</a><br>Go through this article it will be helpful to you<hr style="margin-right: 20px;"></td></tr>     
+                                <tr>
+                                    <td style="width: 50%;"><img src="data:image/jpeg;base64,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" style="height: 50%; width:50%; padding-left: 20px;" alt="">
+                                    </td>
+                                    <td> <a href="./index.html" style="padding: 20%;">Bootstrap</a><br>Go through this article it will be helpful to you<hr style="margin-right: 20px;"></td></tr>
+                                
+                        </table>
+                       
+                    
+                  </div></td>
+            </tr>
+        </table>
+        <br>
+        <h2>AuthorName</h2>
+        <p>I am Harsh Patel.I had written many blogs and this is my one of the best vlog in my career.Hope you like it.</p>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+    </div>
+    <br>
+    <hr>
+    <div style="border: 10px;"><h2>Comment Section</h2></div>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Review</label>
+          <textarea  class="form-control" name="" id="" cols="30" rows="5"></textarea>
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+  </body>
+</html>
